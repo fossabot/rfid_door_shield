@@ -49,7 +49,7 @@ int priState = LOW;
 int pirVal = 0;
 
 //rfid constants
-int RFIDResetPin = 13;
+int RFIDResetPin = 7;
 
 //Register your RFID tags here
 char tag1[13] = "4200442D173C";
@@ -322,7 +322,6 @@ void rotateStepper() {
 
 void loop()
 {
-  rotateStepper() ;
   
   //delay(10000);
   /*
